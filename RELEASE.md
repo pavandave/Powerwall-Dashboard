@@ -1,6 +1,6 @@
 # RELEASE NOTES
 
-$$ v4.4.5 - Bug Fixes and documentation
+## v4.4.5 - Bug Fixes and documentation
 
 * Enhancement based on #494 to help with installs where the user does not have write access to their local directory
 * Setup adjustments for Powerwall 3

@@ -1,5 +1,18 @@
 # RELEASE NOTES
 
+$$ v4.4.5 - Bug Fixes and documentation
+
+* Enhancement based on #494 to help with installs where the user does not have write access to their local directory
+* Setup adjustments for Powerwall 3
+* Updated README with troubleshooting and example configuration for Powerwall 3
+
+
+## v4.4.4 - Bug Fixes
+
+* Fix setup.sh gateway detection logic to better work on Synology and other host without user `ping` commands as raised by @zcpnate in #488
+* Update to pypowerwall 0.10.6: pyLint code optimization, fix timeout logic for TEDAPI and FleetAPI modes, fix battery backup reserve level scaling for TEDPAI mode, fix grid status bug in FleetAPI mode and fix control mode error in proxy.
+
+
 ## v4.4.4 - Bug Fixes
 
 * Fix setup.sh gateway detection logic to better work on Synology and other host without user `ping` commands as raised by @zcpnate in #488
